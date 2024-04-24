@@ -3,7 +3,7 @@
 internal class Cat : Animal
 {
     public string Name { get; }
-    public Cat(string name) : base(Family.Felidae)
+    public Cat(string name) : base(Family.Felidae, 18)
     {
         Name = name;
     }
