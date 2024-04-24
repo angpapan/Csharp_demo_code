@@ -5,6 +5,8 @@ Animal cat = new Cat("Dora");
 
 dog.MakeSound();
 cat.MakeSound();
+Console.log($"{((Dog)dog).Name} " +
+  $"{(dog.IsAlive() ? "is" : "is not")} alive.");
 
 // Reflection
 Type type = dog.GetType();
