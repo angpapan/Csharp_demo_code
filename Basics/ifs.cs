@@ -1,5 +1,5 @@
 int grade = 7;
-if (age >= 5)
+if (grade >= 5)
 {
     Console.WriteLine("PASS");
 }
